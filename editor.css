@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container-edit{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+
+}
+.container-imagenes{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-imagenes img{
+    height: auto;
+    width: 33%;
+    min-width: 190px;
+}
+.container-info{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+
+}
+.card-title{
+    font-size: 2.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-text{
+    font-size: 2rem;
+}
+.container-info input[type=text] {
+    padding: 5px;
+
+}
